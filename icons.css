@@ -2,3 +2,11 @@
   width:24px;
   content:url("https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Family-Logos@1.0.7/Red-CSS-Logo.png");
 }
+.ri .ri-redhtml{
+  width:24px;
+  content:url("https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Family-Logos@1.0.7/Red-HTML-Logo.png");
+}
+.ri .ri-redicon{
+  width:24px;
+  content:url("./icons/logos/Red-Icons-Logo.png");
+}
