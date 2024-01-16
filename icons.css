@@ -36,7 +36,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.red-icons{
+  font-family:Red-Icons;
+}
 .ri-academic-cap:before {
   content: "\e900";
 }
