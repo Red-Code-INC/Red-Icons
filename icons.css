@@ -541,7 +541,7 @@
 .ri-collection:before {
   content: "\e9a8";
 }
-.ri-cog:before {
+.ri-settings:before {
   content: "\e9a9";
 }
 .ri-code:before {
@@ -742,7 +742,7 @@
 .ri-equalizer2:before {
   content: "\e9eb";
 }
-.ri-cog1:before {
+.ri-settings1:before {
   content: "\e9ec";
 }
 .ri-fire1:before {
@@ -772,21 +772,21 @@
 .ri-github:before {
   content: "\eab0";
 }
-.ri-html-five:before {
+.ri-html:before {
   content: "\eae4";
 }
-.ri-css3:before {
+.ri-css:before {
   content: "\eae6";
 }
-.ri-redicons{
+.rc-redicons{
   width:24px;
   content:url("./icons/logos/Red-Icons-Logo.png");
 }
 
-.ri-redx{
+.rc-redx{
   width:24px;
   content:url("./icons/logos/Red-X-Logo.png");
 }
-.ri-placeholder{
+.rs-placeholder{
   width:24px;
   content:url("./icons/misc/Placeholder.png");
