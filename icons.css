@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'Red-Icons';
-  src:  url('font/Red-Icons.eot?3g4gmh');
-  src:  url('font/Red-Icons.eot?3g4gmh#iefix') format('embedded-opentype'),
-    url('font/Red-Icons.ttf?3g4gmh') format('truetype'),
-    url('font/Red-Icons.woff?3g4gmh') format('woff'),
-    url('font/Red-Icons.svg?3g4gmh#Red-Icons') format('svg');
+  src:  url('./font/Red-Icons.eot?3g4gmh');
+  src:  url('./font/Red-Icons.eot?3g4gmh#iefix') format('embedded-opentype'),
+    url('./font/Red-Icons.ttf?3g4gmh') format('truetype'),
+    url('./font/Red-Icons.woff?3g4gmh') format('woff'),
+    url('./font/Red-Icons.svg?3g4gmh#Red-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
