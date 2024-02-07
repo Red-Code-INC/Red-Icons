@@ -11,6 +11,15 @@
   font-style: normal;
   font-display: block;
 }
+.redicons{
+  font-family:Red-Icons;
+}
+redicons{
+  font-family:Red-Icons;
+}
+[redicons]{
+  font-family:Red-Icons;
+}
 
 [class^="ri-"], [class*=" ri-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
