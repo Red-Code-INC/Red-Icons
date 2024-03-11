@@ -74,3 +74,11 @@
   width:30px;
   content:url("https://cdn.jsdelivr.net/gh/Red-Code-INC/red-logos/red-x/Red-X-Logo.png");
 }
+.rc-redjava{
+  width:30px;
+  content:url("./logos/Red-Java-Logo.png");
+}
+.rc-redjava-2{
+  width:30px;
+  content:url("./logos/Red-Java-Logo-FAVICON.png");
+}
