@@ -102,3 +102,31 @@
   width:30px;
   content:url("./logos/Red-Java-Logo-FAVICON.png");
 }
+.rc-redc{
+  width:30px;
+  content:url("./logos/rython/Red-Python-Logo.png");
+}
+.rc-redc{
+  width:30px;
+  content:url("./logos/Red-C-Logo.png");
+}
+.rc-redc-2{
+  width:30px;
+  content:url("./logos/Red-C-Logo-2.png");
+}
+.rc-redplus{
+  width:30px;
+  content:url("./logos/rython/Red-Plus-Logo.png");
+}
+.rc-redplus-2{
+  width:30px;
+  content:url("./logos/Red-Plus-Logo-2.png");
+}
+.rc-redsharp{
+  width:30px;
+  content:url("./logos/Red-Sharp-Logo.png");
+}
+.rc-redsharp-2{
+  width:30px;
+  content:url("./logos/Red-Sharp-Logo-2.png");
+}
