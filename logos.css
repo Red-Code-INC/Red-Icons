@@ -74,6 +74,26 @@
   width:30px;
   content:url("https://cdn.jsdelivr.net/gh/Red-Code-INC/red-logos/red-x/Red-X-Logo.png");
 }
+.rc-redpython{
+  width:30px;
+  content:url("./logos/rython/Red-Python-Logo.png");
+}
+.rc-redpython-2{
+  width:30px;
+  content:url("./logos/rython/Red-Python-Logo-2.png");
+}
+.rc-redpython-3{
+  width:30px;
+  content:url("./logos/rython/Red-Python-Logo-FAVICON.png");
+}
+.rc-redpython-4{
+  width:30px;
+  content:url("./logos/rython/Red-Python-Logo-FAVICON-2.png");
+}
+.rc-redpython-5{
+  width:30px;
+  content:url("./logos/rython/Red-Python-Logo-SIDESTREAKER.png");
+}
 .rc-redjava{
   width:30px;
   content:url("./logos/Red-Java-Logo.png");
