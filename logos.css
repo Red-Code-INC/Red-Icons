@@ -86,6 +86,14 @@
   width:30px;
   content:url("./logos/rython/Red-Python-Logo-SIDESTREAKER.png");
 }
+.rc-redpython-4,.rc-redpython-old{
+  width:30px;
+  content:url("./logos/rython/Red-Python-Logo.png"):
+}
+.rc-redpython-5,.rc-redpython-old-2{
+  width:30px;
+  content:url("./logos/rython/Red-Python-Logo-2.png"):
+}
 .rc-redjava{
   width:30px;
   content:url("./logos/Red-Java-Logo.png");
