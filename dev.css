@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Red-Icons';
   src:
-    url('fonts/Red-Icons.ttf?x6d6es') format('truetype'),
-    url('fonts/Red-Icons.woff?x6d6es') format('woff'),
-    url('fonts/Red-Icons.svg?x6d6es#Red-Icons') format('svg');
+    url('dev/Red-Icons.ttf?x6d6es') format('truetype'),
+    url('dev/Red-Icons.woff?x6d6es') format('woff'),
+    url('dev/Red-Icons.svg?x6d6es#Red-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
