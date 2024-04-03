@@ -1,0 +1,35 @@
+body{
+    background-color:#282529;
+    color:white;
+}
+.cdn{
+    background-color:#2b3035;
+}
+.icons{
+    background-color:#2b3035;
+}
+.icons:hover{
+    background-color:black;
+}
+#icons{
+    background-color:#2b3035;
+}
+.tab{
+    border:1px solid black;
+}
+.about{
+    background-color:#2b3035;
+}
+#theme{
+    color:white;
+    transform:rotate(180deg)
+}
+#copyicon{
+    color:white;
+}
+.pun{
+    background-color:rgba(40, 37, 41, 0.4);
+}
+:root{
+    --main-color:#2b3035;
+}
