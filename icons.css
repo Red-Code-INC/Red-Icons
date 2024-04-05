@@ -1,6 +1,10 @@
 @import  "./logos.css";
 @import "./schoolsistance/schoolsistance.css";
 
+redicons,redicon,[redicons],[redicon],.redicons,.redicon{
+  font-family: Red-Icons;
+}
+
 @font-face {
   font-family: 'Red-Icons';
   src:
