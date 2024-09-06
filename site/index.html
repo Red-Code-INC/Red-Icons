@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/gh/Sideswipe5/Red-CSS@1.0.7/themes/main/default.css" rel="stylesheet">
+    <link id="currenticonlink" href="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Icons@1.3.5/icons.css" rel="stylesheet">
+    <title>Red Icons</title>
+    <link id="active-stylesheet" href="" rel="stylesheet"> 
+	<link rel="shortcut icon" href="./uploads/Red-Icons-FAVICON.png">
+    <link href="style.css" rel="stylesheet">
+    <style>
+      [icon] {
+        font-family: Red-Icons;
+      }
+
+      icon {
+        font-family: Red-Icons;
+      }
+
+      [bold] {
+        font-weight: bold;
+        font-style: italic;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!--Code goes here-->
+    <div class="tab">
+      <button class="tablinks" onclick="tab(event, 'home', 'tabcontent' , 'tablinks')" name="defaultOpen">Home</button>
+      <button class="tablinks" onclick="tab(event, 'tab2', 'tabcontent' , 'tablinks')">About</button>
+      <button class="tablinks" onclick="tab(event, 'tab3', 'tabcontent' , 'tablinks')" name="">Icons</button>
+      <button class="tablinks" onclick="tab(event, 'tab4', 'tabcontent' , 'tablinks')">Settings</button>
+    </div>
+    <div id="home" class="tabcontent">
+        <h1 id="title"><i class="rc-redicons" id="titlelogo"></i><red>Red</red> Icons</h1>
+        <p class="pun">The <red bold>reddest</red> Icon Library Around</p>
+        <p class="cdn">
+            <span style="padding-top:2px"><icon>globe-3</icon> CDN link:</span>
+            <span class="copybutton">
+          <span class="tooltip">
+              <button onclick="copy('cdnlnk')" class="cdnbtn" style="border:none;background-color:inherit" onmouseout="outFunc()">
+            <span class="tooltiptext" id="myTooltip">Copy to Clipboard</span>
+            <span id="copyicon" style="font-family:Red-Icons;">duplicate</span></button>
+            </span>
+            </span>
+            <br>
+          <icon class="cdnlinkicon">link</icon><input id="cdnlnk" class="cdnlink" style="font-family:arial;color:red;;background-color:inherit;border:none;" readonly="true"></span>
+          <br>
+          <span git><icon>github</icon> <a class="gitlnk" href="https://github.com/Red-Code-INC/Red-Icons">Github Repository</a><span></span>
+        </p>
+        </p>
+        <br>
+        <div class="othersitesmin">
+            <!--<div style="color:black">Other Sites</div>-->
+            <a class="othsitmnlnks" href="https://red-code-1-8677475.codehs.me/index.html">Red Code</a> |
+            <a class="othsitmnlnks" href="https://red-script-8519305.codehs.me/RedScript.html">Red Script</a> |
+            <a class="othsitmnlnks" href="https://new-red-css-2-9075191.codehs.me/index.html">Red CSS</a> |
+            <a class="othsitmnlnks" href="https://red-html-8684688.codehs.me/index.html">Red HTML</a>
+        </div>
+        <div class="othersites">
+            <span style="font-size:20px">Other Sites:</span>
+            <div class="othersitelinks"><a class="othersitelinks" href="https://red-code-1-8677475.codehs.me/index.html">Red Code</a> | <a class="othersitelinks" href="https://red-script-8519305.codehs.me/RedScript.html">Red Script</a> | <a class="othersitelinks" href="https://new-red-css-2-9075191.codehs.me/index.html">Red CSS</a> | <a class="othersitelinks" href="https://red-html-8684688.codehs.me/index.html">Red HTML</a></div>
+        </div>
+    </div>
+    <div class="bgimages" id="sidebar-ads">
+    <img class="SRI" src="https://codehs.com/uploads/c2901f5e230c38fd879ce12fe69ec676" width="200px">
+    <img iconslog src="https://codehs.com/uploads/e97456b7ec1f798a3277dfbe9d2c87f7" width="300px">
+    <i class="RI"></i>
+    <icon class="rdicons">arrow-up globe fire home github settings</icon>
+    </div>
+    <div id="tab2" class="tabcontent">
+      <h1 class="tabtitle"><i class="rc-redicons tablogo" style=""></i>About</h1>
+      <div class="about">
+          <h2>What Is Red Icons</h2>
+          <p><s_></s_>Red Icons is an Icon Library (like Font Awesome and Bootstrap Icons), this was originally going to be a function of Red CSS but we decided it would be better to separate the icons from it.
+          <br>
+          <br>
+          Red Icons has also replaced Red Logos meaning you can also access pure logos of the Red Code Family
+          <br>
+          <br>
+          All you have to do is add <code>&lti class="rc-name">&lt/i></code>. basically the logos are just like the icons but instead of <red>ri</red> its <red>rc</red> and sizing uses <red>width</red> instead of <red>font-size</red>
+          </p>
+      </div>
+      <br>
+      <div class="about">
+          <h2>How To Add The Icons</h2>
+          <p><s_></s_>Its really simple, there are 2 ways to do it, you can either add an html element with the class ri-insertnameoficonhere or you can make an element's font-family be Red-Icons and type the name of the icon you want
+          <br>
+          <br>
+          <red>NOTE: only the first option works for the Red Code Family logos (the ones with the rc instead of ri)</red>
+          </p>
+      </div>
+    </div>
+    <div id="tab3" class="tabcontent">
+      <h1 class="tabtitle"><i class="rc-redicons tablogo" style=""></i>Icons</h1>
+      <div class="searchfilters">
+          <div style="float:left;display:inline-block;padding:5px 2px;background-color:var(--main-color);">Filters:</div>
+          <button class="srchfiltbtn" id="dgs" onclick="filter('all')">All</button>
+          <button class="srchfiltbtn" id="redlogos-link" onclick="filter('redlogos')">Red Logos</button>
+          <button class="srchfiltbtn" id="redicons-link" onclick="filter('redicons')">Red Icons</button>
+          <button class="srchfiltbtn" id="school-link" onclick="filter('school')">Schoolsistance Logos</button>
+      </div>
+      <minbr>
+          <br>
+          <br>
+      </minbr>
+      <searchbar plhlder="Search" search="icons"></searchbar>
+      <br>
+      <br>
+      <br>
+      <div>
+        <div id="iconslist">
+            <div class="searchgroup" id="redlogos">
+            <h2 class="iconstitle">Red Logos</h2>
+            <!--<h4>Main Logos</h4>-->
+            <div class="searchgroupicons">
+          <div class="icons i-logos">
+            <h3><i class="rc-redscript" icon></i><a class="iconlink logolink" href="">Red Script</a></h3>
+          </div>
+          <div class="icons i-logos">
+            <h3><i class="rc-redcode" icon></i><a class="iconlink logolink" href="">Red Code</a></h3>
+          </div>
+          <div class="icons i-logos">
+            <h3><i class="rc-redcss" icon></i><a class="iconlink logolink" href="">Red CSS</a></h3>
+          </div>
+          <div class="icons i-logos">
+            <h3><i class="rc-redhtml" icon></i><a class="iconlink logolink" href="">Red HTML</a></h3>
+          </div>
+          <div class="icons i-logos">
+            <h3><i class="rc-redicons" icon></i><a class="iconlink logolink" href="">Red Icons</a></h3>
+          </div>
+          <div class="icons">
+              <h3><i class="rc-redlogos" icon></i><a class="iconlink" href="">Red Logos</a></h3>
+          </div>
+          <div class="icons">
+              <h3><i class="rc-redx" icon></i><a class="iconlink" href="">Red X</a></h3>
+          </div>
+          <div class="icons">
+              <h3><i class="rc-redpython" icon></i><a class="iconlink" href="">Red Python</a></h3>
+          </div>
+          <div class="icons">
+              <h3><i class="rc-redjava" icon></i><a class="iconlink" href="">Red Java </a></h3>
+          </div>
+          <div class="icons">
+              <h3><i class="rc-redc" icon></i><a class="iconlink" href="">Red C</a></h3>
+          </div>
+          <div class="icons">
+              <h3><i class="rc-redplus" icon></i><a class="iconlink" href="">Red Plus</a></h3>
+          </div>
+          <div class="icons">
+              <h3><i class="rc-redsharp" icon></i><a class="iconlink" href="">Red Sharp</a></h3>
+          </div>
+          <div class="icons">
+              <h3><i class="rc-redscript-3" icon></i><a class="iconlink" usrrmv2 href="">Red Script Mobile</a></h3>
+          </div>
+         </div>
+          </div>
+          <div class="searchgroup" id="redicons">
+              <h2 class="iconstitle">Red Icons</h2>
+          <div class="icons">
+            <h3><i class="ri-search" icon></i><a class="iconlink" href="">Search</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-star" icon></i><a class="iconlink" href"">Star</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-link" icon></i><a class="iconlink" href="">Link</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-link-2" icon></i><a class="iconlink" href="">Link 2</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-fire" icon></i><a class="iconlink" href="">Fire</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-code" icon></i><a class="iconlink" href="">Code</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-github" icon></i><a class="iconlink" href="">Github</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-youtube" icon></i><a class="iconlink" href="">Youtube</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-terminal" icon></i><a class="iconlink" href="">Terminal</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-terminal-2" icon></i><a class="iconlink" href="">Terminal 2</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-tag" icon></i><a class="iconlink" href="">Tag</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-sun" icon></i><a class="iconlink" href="">Sun</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-settings" icon></i><a class="iconlink" href="">Settings</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-users" icon></i><a class="iconlink" href="">Users</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-user" icon></i><a class="iconlink" href="">User</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-user-add" icon></i><a class="iconlink" href="">User Add</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-user-remove" icon></i><a class="iconlink" usrrmv href="">User Remove</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-user-group" icon></i><a class="iconlink" usrrmv href="">User Group</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-upload" icon></i><a class="iconlink" href="">Upload</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-download" icon></i><a class="iconlink" href="">Download</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-thumbs-up" icon></i><a class="iconlink" usrrmv href="">Thumbs Up</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-thumbs-down" icon></i><a class="iconlink" usrrmv href="">Thumbs Down</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-x" icon></i><a class="iconlink" href="">X</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-check" icon></i><a class="iconlink" href="">Checkmark</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-check-circle" icon></i><a class="iconlink" usrrmv2 href="">Checkmark Circle</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-placeholder" icon></i><a class="iconlink" href="">Placeholder</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-html" icon></i><a class="iconlink" href="">HTML</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-css" icon></i><a class="iconlink" href="">CSS</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-javascript" icon></i><a class="iconlink" href="">JavaScript</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-javascript-2" icon></i><a class="iconlink" usrrmv href="">JavaScript 2</a></h3>
+          </div>
+          <div class="icons">
+            <h3><i class="ri-java" icon></i><a class="iconlink" href="">Java</a></h3>
+          </div>
+          </div>
+          <div class="searchgroup" id="school">
+              <h2 class="iconstitle">Schoolsistance</h2>
+                <div class="icons">
+                    <h3><i class="ri-placeholder" icon></i><a class="iconlink" usrrmv href="">Schoolsistance</a></h3>
+                </div>
+                <div class="icons">
+                    <h3><i class="ri-placeholder" icon></i><a class="iconlink" usrrmv2 href="">Schoolsistance INC</a></h3>
+                </div>
+                <div class="icons">
+                    <h3><i class="ri-placeholder" icon></i><a class="iconlink" usrrmv href="">Codesistance</a></h3>
+                </div>
+                <div class="icons">
+                    <h3><i class="ri-placeholder" icon></i><a class="iconlink" usrrmv href="">Edusistance</a></h3>
+                </div>
+                <div class="icons">
+                    <h3><i class="ri-placeholder" icon></i><a class="iconlink" usrrmv href="">Main Assistance</a></h3>
+                </div>
+                <div class="icons">
+                    <h3><i class="ri-placeholder" icon></i><a class="iconlink" usrrmv href="">Mathsistance</a></h3>
+                </div>
+                <div class="icons">
+                    <h3><i class="rs-schoolsistance-science" icon sc></i><a class="iconlink" usrrmv3 href="">Schoolsistance Science</a></h3>
+                </div>
+                <div class="icons">
+                    <h3><i class="ri-placeholder" icon></i><a class="iconlink" usrrmv2 href="">Schoolsistance LA</a></h3>
+                </div>
+                <div class="icons">
+                    <h3><i class="ri-placeholder" icon></i><a class="iconlink" usrrmv2 href="">Schoolsistance SS</a></h3>
+                </div>
+          </div>
+          <br>
+          <div></div>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div id="tab4" class="tabcontent">
+      <h1 class="tabtitle"><i class="rc-redicons tablogo" style=""></i>Settings<i style=";color:red;vertical-align:text-bottom" class="ri-settings tablogo"></i></h1>
+      <div>Themes:
+        <br>
+        <div class="switch-buttons">
+            <span class="switch-buttons button" style="font-family:Red-Icons" id="theme" onclick="themeSwitch()" data-stylesheet="color2.css">contrast</span>
+        </div>
+        <button id="clear-storage">Reset to Default</button>
+      </div>
+    </div>
+    <!--<script src="test.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Script@1.4.0/script.js" type="module"></script>
+    <script src="script.js"></script>
+    <script src="version.js"></script>
+    <!--<script type="text/javascript" src="jquery-1.3.2.min.js"></script>-->
+  </body>
+
+</html>

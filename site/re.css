@@ -1,0 +1,38 @@
+@media screen and (max-width:800px){
+    .rdicons{
+        display:none;
+        color:red;
+        width:100px;
+        font-size:20px;
+    }
+}
+@media screen and (min-width:801px){
+    .rdicons{
+    top:86%;
+    transform:rotate(45deg);
+}
+}
+@media screen and (min-width:1400px){
+    .rdicons{
+        position:absolute;
+        top:64%;
+        left:7%;
+        color:red;
+        width:90px;
+        font-size:60px;
+        transform:rotate(-45deg);
+        z-index:-11;
+    }
+}
+@media screen and (min-width:1600px){
+    .rdicons{
+        position:absolute;
+        top:64%;
+        left:7%;
+        color:red;
+        width:90px;
+        font-size:50px;
+        transform:rotate(-45deg);
+        z-index:-11;
+    }
+}
